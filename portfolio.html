@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Brandon Lee's Portfolio</title>
+
+        <style>
+            a:link, a:visited {
+              background-color: green;
+              color: white;
+              padding: 14px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+            }
+            
+            a:hover, a:active {
+              background-color: darkgreen;
+            }
+
+            body {
+                text-align: -webkit-center;
+                font-family: "Verdana", monospace;
+            }
+
+            img {
+                max-width: 60%;
+                height: fit-content;
+            }
+            .icon {
+                max-width: 100px;
+                max-height: 100px;
+            }
+
+            p {
+                text-align: left;
+                margin: 10px;
+            }
+
+            .projects {
+                border: solid;
+                border-width: 5px;
+            }
+
+            .project {
+                padding: 5px;
+                margin: 10px;
+/*                 border-top-style: inset;
+                border-bottom-style: outset; */
+                display: flex;
+            }
+
+            .project-info {
+                max-width: 40%;
+                margin-right: auto;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1>The Portfolio of Brandon Lee</h1>
+
+        <div class="links">
+            
+            <a href="https://www.github.com/blee2125" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/brandon-lee-0457a2206/" target="_blank">LinkedIn</a>
+            <a href="https://blee2125.github.io/" target="_blank">Blog</a>
+            <!-- <a href="" target="_blank">Resume</a> -->
+            <a href="mailto:blee2125@gmail.com" target="_blank">Email</a>
+        </div>
+
+
+            <h3>BELOW ARE MY PROJECTS</h3>
+        <div class="projects">
+
+            <section class="project">
+                <div class="project-info">
+                    <h3>VanillaJS Weather</h3>
+                    <img class="icon" src="javascript.png" alt="javascript">
+                    <img class="icon" src="html.png" alt="html">
+                    <img class="icon" src="postgrespng.png" alt="postgres">
+                    <img class="icon" src="rubyonrails.png" alt="rubyonrails"><br>
+                    <p>This is a weather application that displays weather data by zip code. A user can sign up for an account and save locations and settings. Users can toggle between dark mode and light mode. Weather data is fetched from the openweathermaps api.</p><br>
+                    <a href="https://github.com/blee2125/js-weather-app" target="_blank">Github</a><br>
+                </div>
+                <img src="weather.png" alt="weather">
+            </section>
+
+            <section class="project">
+                <div class="project-info">
+                    <h3>Storage Unit Manager</h3>
+                    <img class="icon" src="react.png" alt="react">
+                    <img class="icon" src="redux.png" alt="redux">
+                    <img class="icon" src="javascript.png" alt="javascript">
+                    <img class="icon" src="rubyonrails.png" alt="rubyonrails">
+                    <img class="icon" src="postgrespng.png" alt="postgres"><br>
+                    <p>This app allows a user to manage their storage units. The user interface is created with React components. The state is managed by Redux. The backend is built on Ruby on Rails and PostgreSQL is used for the database.</p><br>
+                    <a href="https://github.com/blee2125/storage-rental-react-app" target="_blank">Github</a><br>
+                </div>
+                <img src="storage unit.png" alt="storage unit">
+            </section>
+
+            <section class="project">
+                <div class="project-info">
+                    <h3>Beer Review</h3>
+                    <img class="icon" src="rubyonrails.png" alt="rubyonrails">
+                    <img class="icon" src="ruby.png" alt="ruby">
+                    <img class="icon" src="css.png" alt="css">
+                    <img class="icon" src="sqlite3.png" alt="sqlite3">
+                    <img class="icon" src="omniauth.png" alt="omniauth"><br>
+                    <p>This app was built using Ruby on Rails. It allows users to upload info and pictures of different microbrews. They can also leave comments and a recommendation on each beer. Sign up with Facebook through omniauth.</p><br>
+                    <a href="https://github.com/blee2125/beer-review" target="_blank">Github</a><br>
+                </div>
+                <img src="beer review.png" alt="beer review">
+            </section>
+
+            <section class="project">
+                <div class="project-info">
+                    <h3>Recipes Sinatra</h3>
+                    <img class="icon" src="sinatra.png" alt="sinatra">
+                    <img class="icon" src="ruby.png" alt="ruby">
+                    <img class="icon" src="sqlite3.png" alt="sqlite3"><br>
+                    <p>The application was build using Sinatra. Recipes Sinatra allows users to sign up and save recipes to the database. They can also edit their recipes and view recipes submitted from other users.</p><br>
+                    <a href="https://github.com/blee2125/recipes-sinatra" target="_blank">Github</a><br>
+                </div>
+                <img src="Recipes Sinatra.png" alt="recipes-sinatra">
+            </section>
+            
+            <section class="project">
+                <div class="project-info">
+                    <h3>Ruby Gem</h3>
+                    <img class="icon" src="ruby.png" alt="ruby">
+                    <img class="icon" src="nokogiri.png" alt="nokogiri"><br>
+                    <p>This is a ruby gem. It uses nokogiri to parse HTML from Y Combinator's website and return a list of their top companies. This is a command-line interface app.</p><br>
+                    <a href="https://github.com/blee2125/top-companies-y-combinator-cli-gem" target="_blank">Github</a><br>
+                </div>
+                <img src="Top Companies Y Combinator - cli gem.png" alt="cli-gem">
+            </section>
+            
+        </div>
+
+
+    </body>
+</html>
