@@ -1,0 +1,63 @@
+a:link, a:visited {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: darkgreen;
+  }
+
+  body {
+      text-align: -webkit-center;
+      font-family: "Verdana", monospace;
+  }
+
+  .gif {
+      max-width: 60%;
+      min-width: 60%;
+      height: fit-content;
+      border: solid;
+  }
+  img {
+      max-width: 60%;
+      height: fit-content;
+      border: solid;
+  }
+  .img-nongif {
+      max-width: 60%;
+      min-width: 60%;
+      max-height: max-content;
+      height: max-content;
+      border: solid;
+  }
+  .icon {
+      max-width: 100px;
+      max-height: 100px;
+      border: none;
+  }
+
+  p {
+      text-align: left;
+      margin: 10px;
+  }
+
+  .projects {
+      
+  }
+
+  .project {
+      padding: 5px;
+      margin: 10px;
+/*                 border-top-style: inset;
+      border-bottom-style: outset; */
+      display: flex;
+  }
+
+  .project-info {
+      max-width: 40%;
+      margin-right: auto;
+  }
